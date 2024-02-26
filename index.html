@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>FCFS Disk Scheduling Algorithm</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <h1 style="color: rgb(20, 128, 228)">FCFS Disk Scheduling Algorithm</h1>
+
+  <h3>Input Array Elements</h3>
+  <div class="input-container">
+    <label>Enter the queue : </label>
+    <input id="array" placeholder='Eg: "82 ,170 ,43 ,140 ,24 ,16 ,190"' oninput="validation(event)"/><br/>
+    <h6>0-199, no special character allowed except , </h6>
+  </div>
+
+  <div class="input-container">
+    <label class="head">Enter head : </label>
+    <input id="inputhead" oninput="validation(event)" /><br />
+    <h6>0-199, no special character allowed except , </h6>
+  </div>
+
+  <div class="btn">
+    <button type="button" name="button" onclick="gg()">
+      Calculate
+    </button>
+  </div>
+
+  <p id="vv"></p>
+
+  <br />
+  <div class="graph">
+    <div id="myPlot" style="width: 100%; max-width: 700px"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+

@@ -1,1 +1,1 @@
-# Disk_Scheduling_FirstComeFirstServe
+# FCFS_Disc_Scheduling
